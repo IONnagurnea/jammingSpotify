@@ -1,0 +1,25 @@
+.PlaylistsItem {
+    display: flex;
+    height: 110px;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid rgba(256, 256, 256, 0.8);
+}
+
+.PlaylistItemName {
+    flex-grow: 1;
+}
+
+.Playlist-action {
+  cursor: pointer;
+  padding: 1.1rem;
+  font-size: 1.05rem;
+  transition: color 0.25s;
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+}
+
+.Playlist-action:hover {
+  color: rgba(265, 265, 265, 0.5);
+}
